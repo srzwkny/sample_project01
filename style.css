@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 12px;
+    font-family: "Hiragino Kaku Gothic Pro", Mairyo, Osaka, "MS PGothic", sans-serif;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 75px;
+}
+.header-logo img{
+    width: 75px;
+    float: left;
+}
+
+.top-wrapper{
+    background-image: url(top.jpg);
+    background-size: cover;
+}
+.top-container{
+    padding: 200px 0;
+}
+.top-container h1{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    color: lightpink;
+    font-size: 30px;
+}
+
+.contentsfirst{
+    padding: 30px 0;
+    background-color: lightpink;
+}
+.contentsfirst-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contentsfirst-icon{
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin: 20px 10px;
+}
+.contentsfirst-icon img{
+    width: 100px;
+}
+
+.contentssecond{
+    padding: 30px 0;
+    border-bottom: 4px solid rgba(179,179,179, 0.8);
+}
+.contentssecond-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contentssecond-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+.contentssecond-box img{
+    width: 200px;
+    padding-right: 10px;
+}
+
+.contentsthird img{
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 4px solid rgba(179,179,179, 0.8);
+}
+
+.contentsfourth{
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+    color: white;
+    padding: 30px;
+    position: relative;   
+    margin:30px auto;
+}
+.contentsfourth h1{
+    position: absolute;
+    top: 45px;
+    left: 36px;
+}
+
+.footer-container{
+    background-color: lightpink;
+    width: 100%;
+}
+.footer-container ul{
+    float: right;
+    list-style: none;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.footer-container li{
+    text-align: right;
+}
+.footer-container a{
+    text-decoration: none;
+    color: lightpink;
+    font-size: 15px;
+    font-weight: 600;
+}
